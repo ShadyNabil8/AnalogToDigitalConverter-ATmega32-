@@ -2,7 +2,7 @@
 
 
 void     (*IfdsdR_dffdC)  (void hi there);
-uint16_t (*ADC_start)(void);
+//hello
 
 static uint16_t ADC_start_pooling  (void);
 static uint16_t ADC_start_interrupt(void);
