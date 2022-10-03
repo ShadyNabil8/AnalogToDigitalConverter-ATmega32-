@@ -4,7 +4,7 @@
     * version : 1.0
 */
 
-#ifndef _ADC_H_
+#ifndef _ADC_H_welcome
 #define _ADC_H_
 
 #include<avr/io.h>
