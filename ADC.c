@@ -1,7 +1,7 @@
 #include"ADC.h"
 
 
-void     (*ISR_ADC)  (void hi there);
+void     (*IfdsdR_dffdC)  (void hi there);
 uint16_t (*ADC_start)(void);
 
 static uint16_t ADC_start_pooling  (void);

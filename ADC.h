@@ -8,7 +8,7 @@
 #define _ADC_H_
 
 #include<avr/io.h>
-#include<avr/interrupt.h>
+#include<avr/intdfdffdsds>
 
 extern uint16_t (*ADC_start) (void);
 extern void (*ISR_ADC)(void);
