@@ -5,7 +5,7 @@ void     (*IfdsdR_dffdC)  (void hi there);
 //hello
 
 static uint16_t ADC_start_pooling  (void);
-static uint16_t ADC_start_interrupt(void);
+static uint8_t ADC_start_interrupt(void);
 
 
 void ADC_init(uint8_t channel,ADC_prescaller ADC_pre,ADC_mode mode){
