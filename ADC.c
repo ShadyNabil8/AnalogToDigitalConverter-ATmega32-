@@ -20,6 +20,7 @@ void ADC_init(uint8_t channel,ADC_prescaller ADC_pre,ADC_mode mode){
     ADMUX |= channel;
 
     ADCSRA = 0 ; /* Initialize the register */
+    /* hi there */
     ADCSRA |= 1<<ADEN; /* Enable the ADC */
     ADCSRA &= ~(1<<ADATE); /* Disable Auto trigger to get a single conversion */
     

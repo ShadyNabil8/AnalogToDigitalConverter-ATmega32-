@@ -29,7 +29,7 @@ extern void (*ISR_ADC)(void);
     ************************ ADCSRA register **********************
     • Bit 7 – ADEN: ADC Enable
         ADEN bit controls (enable / disabel) if the ADC
-    • Bit 6 – ADSC: ADC Start Conversion
+    • Bit 6 – ADSC: ADC Start Conversion hi i am shady
         In Single Conversion mode, write ADSC bit to one to start each conversion.
         In Free Running Mode, write this bit to one to start the first conversion.
     • Bit 5 – ADATE: ADC Auto Trigger Enable
